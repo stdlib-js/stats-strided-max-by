@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-maxBy = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-max-by@umd/browser.js' )
+maxBy = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-max-by@v0.1.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var maxBy = require( 'path/to/vendor/umd/stats-strided-max-by/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-max-by@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-max-by@v0.1.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -214,7 +214,7 @@ var v = maxBy.ndarray( 3, x, 1, x.length-3, accessor );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-max-by@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-max-by@v0.1.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
